@@ -15,7 +15,7 @@
 	<name>JtSpringProject</name>
 	<description>Spring project for Java Technology</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 
@@ -75,10 +75,10 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<release>11</release>
+					<release>17</release>
 					<compilerArgs>
 						<arg>--release</arg>
-						<arg>11</arg>
+						<arg>17</arg>
 					</compilerArgs>
 				</configuration>
 			</plugin>
