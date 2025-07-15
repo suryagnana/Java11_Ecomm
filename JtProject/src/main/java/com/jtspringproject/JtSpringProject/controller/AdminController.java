@@ -51,7 +51,7 @@ public class AdminController {
 	
 	@GetMapping("login")
 	public ModelAndView adminlogin(@RequestParam(required = false) String error) {
-	    ModelAndView mv = new ModelAndView("adminlogin");
+	    ModelAndView mv = new ModelAndView("admin");
 	    if ("true".equals(error)) {
 	        mv.addObject("msg", "Invalid username or password. Please try again.");
 	    }
